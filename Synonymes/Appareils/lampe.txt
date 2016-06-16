@@ -1,0 +1,4 @@
+lampe
+lumière
+spot
+chat
