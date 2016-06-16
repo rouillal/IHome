@@ -1,0 +1,6 @@
+rule lampeON0012
+when
+	Time cron "0 0 12 * * ?"
+then
+	sendCommand(lampe,ON)
+end
