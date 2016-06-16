@@ -1,0 +1,44 @@
+{
+  "query": "allumer le lampe à midi ",
+  "intents": [
+    {
+      "intent": "RegleTemporelle",
+      "score": 0.991073847
+    },
+    {
+      "intent": "None",
+      "score": 0.0314535461
+    },
+    {
+      "intent": "RegleEtat",
+      "score": 0.0006416472
+    },
+    {
+      "intent": "RegleAction",
+      "score": 7.152764E-13
+    }
+  ],
+  "entities": [
+    {
+      "entity": "midi",
+      "type": "DateTime",
+      "startIndex": 19,
+      "endIndex": 22,
+      "score": 0.9760807
+    },
+    {
+      "entity": "lampe",
+      "type": "Service",
+      "startIndex": 11,
+      "endIndex": 15,
+      "score": 0.997927547
+    },
+    {
+      "entity": "allumer",
+      "type": "Fonctions",
+      "startIndex": 0,
+      "endIndex": 6,
+      "score": 0.9480302
+    }
+  ]
+}
